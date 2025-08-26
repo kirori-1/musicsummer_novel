@@ -87,3 +87,10 @@ VS Code 左侧 Source Control(源代码管理)：
 
 单人写也可以一直在 main 上写；两人以上请用分支 + PR，冲突更少。
 ```
+
+架构
+![image](images/工作流架构.jpg)
+
+--- 
+项目逻辑和术语解释
+![image](images/术语解释.jpg)
