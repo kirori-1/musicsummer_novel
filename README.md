@@ -10,11 +10,13 @@
 
 - 可选扩展（极简三件套）：
 
+```
 -- Markdown All in One（舒适写作）
 
 -- Git Graph（看提交历史更直观）
 
 -- Paste Image（粘贴截图自动存入 images/）
+```
 
 ## 1. 拉取仓库（只做一次）
 
@@ -28,6 +30,7 @@
 
 ## 2.基础结构
 
+```
 /novel
 /chapters # 正式章节
 /drafts # 草稿
@@ -35,6 +38,8 @@
 /images # 插图（尽量小于 10MB）
 README.md # 项目说明
 .gitignore
+
+```
 
 ## 3.提交并首次推送
 
@@ -46,6 +51,7 @@ VS Code 左侧 Source Control(源代码管理)：
 
 ## 日常写作（4 步循环）
 
+```
 - 口诀：先拉再写，多存勤推。
 
 - Pull：打开 VS Code，左下角 “↓” 或 Git: Pull
@@ -55,6 +61,7 @@ VS Code 左侧 Source Control(源代码管理)：
 - Commit：Source Control → 选中变更 → 填信息（例如 ch1: 初遇场景成稿）→ 提交。
 
 - Push：点 “↑” 或 Sync 推送到 GitHub（远端=你的云备份）。
+```
 
 ---
 
@@ -62,6 +69,7 @@ VS Code 左侧 Source Control(源代码管理)：
 
 ## ps. 多人协作（最简安全流）
 
+```
 一句话：分支写 → 提 PR → 代码审阅 → 合并。
 
 - 创建分支：VS Code 左下角分支名 → Create New Branch，命名如 feat/chapter-02。
@@ -75,3 +83,4 @@ VS Code 左侧 Source Control(源代码管理)：
 - 本地切回 main：Git: Checkout to... → main，再 Pull 同步。
 
 单人写也可以一直在 main 上写；两人以上请用分支 + PR，冲突更少。
+```
