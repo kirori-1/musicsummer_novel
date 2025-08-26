@@ -3,5 +3,6 @@
     "editor.wrappingIndent": "none",
     "editor.autoIndent": "none",
     "editor.wordWrap": "bounded"
-  }
+  },
+  "novel.openaiKey": ""
 }
